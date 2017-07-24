@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     };
     BluetoothAdapter mBluetoothAdapter;
 
+// https://www.youtube.com/watch?v=QVD_8PrvG4Q&list=PLgCYzUzKIBE8KHMzpp6JITZ2JxTgWqDH2&index=2
+
     @Override
     protected void onDestroy() {
         Log.d(TAG, "onDestroy: called.");
